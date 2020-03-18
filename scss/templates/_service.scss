@@ -83,6 +83,7 @@ h5.subtitle {
     border-radius: 10px;
     border: 1px solid rgba(255,255,255,0.05);
     margin-bottom: 10px;
+	min-height: 500px;
 
     i {
         font-size: 70px;
@@ -98,6 +99,7 @@ h5.subtitle {
     p {
         color: $border-color;
         margin-top: 15px;
+		text-align: justify;
     }
 
     &:hover {
