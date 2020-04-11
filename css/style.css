@@ -352,7 +352,7 @@ a:hover, a:focus {
 }
 
 .trans-navigation .navbar-brand h4, .site-navigation .navbar-brand h4, .site-navigation .navbar-brand h3, .trans-navigation .navbar-brand h3 {
-  color: #fff;
+  color: #9C27B0;
 }
 
 .banner-content.style-2 {
@@ -528,7 +528,7 @@ PAGE BANNER
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #9C27B0;
   font-weight: 700;
   letter-spacing: .5px;
   text-transform: uppercase;
@@ -562,6 +562,7 @@ PAGE BANNER
   z-index: 1030;
   right: 0;
   left: 0;
+  top: -30px;
 }
 
 .navbar-dark {
@@ -728,7 +729,15 @@ PAGE BANNER
   background: url("../images/banner/banner-2.jpg") no-repeat;
   background-size: cover;
 }
-
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /*----------------------
  FEATURE STYLE
 -----------------------*/
